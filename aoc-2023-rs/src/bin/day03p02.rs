@@ -374,12 +374,12 @@ mod tests {
         assert_eq!(process_input(reader.lines()), 467835);
     }
 
-    // #[test]
-    // fn test_input() {
-    //     let file_path = "inputs\\day03p01.txt";
-    //     let file = File::open(file_path).expect("Failed to read input file.");
-    //     let reader = BufReader::new(file);
+    #[test]
+    fn test_input() {
+        let file_path = "inputs\\day03p01.txt";
+        let file = File::open(file_path).expect("Failed to read input file.");
+        let reader = BufReader::new(file);
 
-    //     assert_eq!(process_input(reader.lines()), 9);
-    // }
+        assert_eq!(process_input(reader.lines()), 91622824);
+    }
 }
