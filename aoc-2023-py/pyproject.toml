@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "aoc-2023-py"
+version = "0.1.0"
+description = ""
+authors = ["Henry Rocha <henryrocha@protonmail.com>"]
+readme = "README.md"
+packages = [{include = "aoc_2023_py"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
